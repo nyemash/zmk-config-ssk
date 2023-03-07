@@ -9,7 +9,7 @@
         default_layer {
 
             bindings = <
-                &bootloader &bt BT_CLR &kp SPACE
+                &bootloader &bt BT_CLR &kp SPACE &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   
             >;            
         };
     };
