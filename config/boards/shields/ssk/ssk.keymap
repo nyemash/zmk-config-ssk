@@ -9,14 +9,14 @@
         default_layer {
 
             bindings = <
-                &none   &none   &none   &kp B   &kp SPACE   &kp N   &none   &none   &kp SLASH   &kp DOWN   &kp LEFT   &kp RALT
-                &kp Z   &kp X   &kp C   &kp V   &kp ENTER   &kp M   &kp COMMA   &kp DOT   &none   &none   &kp RSHFT   &bootloader   &kp RCTRL
-                &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   
-                &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   
-                &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &kp PG_DN   &none   &none   
-                &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &kp PG_UP   &none   &none   
-                &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   
-                &kp ESC   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none                  
+                &none     &none   &none   &kp B   &kp SPACE   &kp N   &none       &none       &kp SLASH   &kp DOWN    &kp RIGHT      &kp LEFT       &kp RALT
+                &kp Z     &kp X   &kp C   &kp V   &kp ENTER   &kp M   &kp COMMA   &kp DOT     &none       &none       &kp RSHFT      &bootloader    &kp RCTRL
+                &none     &none   &none   &none   &none       &none   &none       &none       &none       &none       &none          &none          &none   
+                &none     &none   &none   &none   &none       &none   &none       &none       &none       &none       &none          &none          &none   
+                &none     &none   &none   &none   &none       &none   &none       &none       &none       &none       &kp PG_DN      &none          &none   
+                &none     &none   &none   &none   &none       &none   &none       &none       &none       &none       &kp PG_UP      &none          &none   
+                &none     &none   &none   &none   &none       &none   &none       &none       &none       &none       &none          &none          &none   
+                &kp ESC   &none   &none   &none   &none       &none   &none       &none       &none       &none       &none          &none          &none
             >;            
         };
     };
