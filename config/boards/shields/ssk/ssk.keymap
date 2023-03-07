@@ -9,7 +9,14 @@
         default_layer {
 
             bindings = <
-                &bootloader &bt BT_CLR &kp SPACE &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   
+                &none   &none   &kp B   &kp SPACE   &kp N   &none   &none   &kp SLASH   &kp DOWN   &none   &kp LEFT   &kp RALT
+                &bt BT_CLR   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &bootloader   &none
+                &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   
+                &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   
+                &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   
+                &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   
+                &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   
+                &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none                  
             >;            
         };
     };
