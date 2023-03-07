@@ -10,7 +10,7 @@
 
             bindings = <
                 &none   &none   &none   &kp B   &kp SPACE   &kp N   &none   &none   &kp SLASH   &kp DOWN   &kp LEFT   &kp RALT
-                &kp Z   &kp X   &kp C   &kp V   &kp EMTER   &kp M   &kp COMMA   &kp DOT   &none   &none   &kp RSHFT   &bootloader   &KP RCTRL
+                &kp Z   &kp X   &kp C   &kp V   &kp ENTER   &kp M   &kp COMMA   &kp DOT   &none   &none   &kp RSHFT   &bootloader   &KP RCTRL
                 &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   
                 &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   
                 &none   &none   &none   &none   &none   &none   &none   &none   &none   &none   &kp PG_DN   &none   &none   
