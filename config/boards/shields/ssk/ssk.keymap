@@ -9,14 +9,15 @@
         default_layer {
 
             bindings = <
-&kp RALT    	&kp LEFT      	&none      	&none    	&none    	&none       	&none       	&kp FSLH    	&kp N    	&kp SPACE   	&kp B   	&kp DOWN    	&kp RIGHT
-&kp RCTRL   	&bootloader   	&kp Z      	&kp X    	&kp C    	&kp COMMA   	&kp DOT     	&none       	&kp M    	&kp ENTER   	&kp V   	&none       	&kp RSHFT
-&none       	&none         	&kp A      	&kp S    	&kp D    	&kp K       	&kp L       	&kp SEMI    	&kp J    	&kp BSLH    	&kp F   	&none       	&none
-&kp SLCK    	&none         	&kp Q      	&kp W    	&kp E    	&kp I       	&kp O       	&kp P       	&kp U    	&none       	&kp R   	&none       	&none
-&bt BT_CLR  	&kp END       	&kp N1     	&kp N2   	&kp N3   	&kp N8      	&kp N9      	&kp N0      	&kp N7   	&kp F10     	&kp N4  	&kp F11     	&kp PG_DN
-&kp LCTRL   	&kp HOME      	&kp TILDE  	&kp F1   	&kp F2   	&kp EQUAL   	&kp F8      	&kp MINUS   	&kp N6   	&kp F9      	&kp N5  	&kp DEL     	&kp PG_UP       
-&none       	&none         	&kp TAB    	&kp CAPS 	&kp F3   	&kp RBKT    	&kp F7      	&kp LBKT    	&kp Y    	&kp BSPC    	&kp T   	&kp LSHFT   	&none
-&kp LALT    	&kp UP        	&kp ESC    	&none    	&kp F4   	&kp F6      	&none       	&kp APOS    	&kp H    	&kp F5      	&kp G   	&none       	&none              
+&kp RALT    	&kp DOWN    	&none      	&none    	&kp DOWN    	&kp FSLH    	&none       	&none       	&kp N    	&kp SPACE   	&kp B   	&none    	&kp RIGHT
+&bootloader   	&kp RSHFT	&kp Z      	&kp X    	&none       	&none       	&kp DOT     	&kp COMMA   	&kp M    	&kp ENTER   	&kp V   	&kp C    	&none
+&none       	&none       	&kp A      	&kp S    	&none       	&kp SEMI    	&kp L       	&kp K       	&kp J    	&kp BSLH    	&kp F   	&kp D    	&none
+&kp SLCK    	&none       	&kp Q      	&kp W    	&none       	&kp P       	&kp O       	&kp I       	&kp U    	&none       	&kp R   	&kp E    	&none
+&bt BT_CLR  	&kp F11     	&kp N1     	&kp N2   	&kp F11     	&kp N0      	&kp N9      	&kp N8      	&kp N7   	&kp F10     	&kp N4  	&kp N3   	&kp PG_DN
+&kp LCTRL   	&kp DEL     	&kp TILDE  	&kp F1   	&kp DEL     	&kp MINUS   	&kp F8      	&kp EQUAL   	&kp N6   	&kp F9      	&kp N5  	&kp F2   	&kp PG_UP       
+&none       	&kp LSHFT   	&kp TAB    	&kp CAPS 	&kp LSHFT   	&kp LBKT    	&kp F7      	&kp RBKT    	&kp Y    	&kp BSPC    	&kp T   	&kp F3   	&none
+&kp LALT    	&none       	&kp ESC    	&none    	&none       	&kp APOS    	&none       	&kp F6      	&kp H    	&kp F5      	&kp G   	&kp F4   	&none
+             
             >;          
         };
     };
