@@ -9,15 +9,14 @@
         default_layer {
 
             bindings = <
-&bt BT_CLR    	&kp RCTRL	&kp RCTRL	&kp RIGHT	&kp DOWN    	&kp FSLH    	&none       	&none       	&kp N    	&kp SPACE   	&kp B   	&kp RCTRL	&kp RCTRL
-&bootloader   	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp RCTRL	&none       	&kp DOT     	&kp COMMA   	&kp M    	&kp ENTER   	&kp V   	&kp RCTRL	&kp RSHFT
-&none       	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp SEMI    	&kp L       	&kp K       	&kp J    	&kp BSLH    	&kp F   	&kp RCTRL	&kp RCTRL
-&kp SLCK    	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp P       	&kp O       	&kp I       	&kp U    	&none       	&kp R   	&kp RCTRL	&kp RCTRL
-&kp PSCRN	&kp RCTRL	&kp PG_DN	&kp RCTRL	&kp F11     	&kp N0      	&kp N9      	&kp N8      	&kp N7   	&kp F10     	&kp N4  	&kp RCTRL	&kp RCTRL
-&kp LCTRL   	&kp RCTRL	&kp PG_UP       	&kp RCTRL	&kp DEL     	&kp MINUS   	&kp F8      	&kp EQUAL   	&kp N6   	&kp F9      	&kp N5  	&kp RCTRL	&kp RCTRL
-&none       	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp LBKT    	&kp F7      	&kp RBKT    	&kp Y    	&kp BSPC    	&kp T   	&kp RCTRL	&kp LSHFT   
-&kp LALT    	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp APOS    	&none       	&kp F6      	&kp H    	&kp F5      	&kp G   	&kp RCTRL	&kp RCTRL
-       
+&bt BT_CLR    	&kp LEFT      	&kp RIGHT	&kp DOWN    	&kp FSLH    	&none       	&none       	&kp N    	&kp SPACE   	&kp B   	&none    	&none    	&none      
+&bootloader   	&kp PAUSE_BREAK		&kp RSHFT	&none       	&kp DOT     	&kp COMMA   	&kp M    	&kp ENTER   	&kp V   	&kp C    	&kp X    	&kp Z      
+&none       	&none         			&kp SEMI    	&kp L       	&kp K       	&kp J    	&kp BSLH    	&kp F   	&kp D    	&kp S    	&kp A      
+&kp SLCK    	&none         			&kp P       	&kp O       	&kp I       	&kp U    	&none       	&kp R   	&kp E    	&kp W    	&kp Q      
+&kp PSCRN	&kp END       	&kp PG_DN	&kp F11     	&kp N0      	&kp N9      	&kp N8      	&kp N7   	&kp F10     	&kp N4  	&kp N3   	&kp N2   	&kp N1     
+&kp LCTRL   	&kp HOME      	&kp PG_UP       	&kp DEL     	&kp MINUS   	&kp F8      	&kp EQUAL   	&kp N6   	&kp F9      	&kp N5  	&kp F2   	&kp F1   	&kp TILDE  
+&none       	&none         	&none         	&kp LSHFT   	&kp LBKT    	&kp F7      	&kp RBKT    	&kp Y    	&kp BSPC    	&kp T   	&kp F3   	&kp CAPS 	&kp TAB    
+&kp LALT    	&kp UP        	&none         		&kp APOS    	&none       	&kp F6      	&kp H    	&kp F5      	&kp G   	&kp F4   	&none    	&kp ESC    
                 
             >;          
         };
