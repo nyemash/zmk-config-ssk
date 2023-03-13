@@ -9,14 +9,15 @@
         default_layer {
 
             bindings = <
-&bt BT_CLR    	&none    	&none    	&kp RIGHT	&kp DOWN    	&kp FSLH    	&none       	&none       	&kp N    	&kp SPACE   	&kp B   	&none    	&none      
-&bootloader   	&none    	&none    	&none	&none	&none       	&kp DOT     	&kp COMMA   	&kp M    	&kp ENTER   	&kp V   	&none    	&kp RSHFT
-&none       	&none    	&none    	&none	&none       	&kp SEMI    	&kp L       	&kp K       	&kp J    	&kp BSLH    	&kp F   	&none    	&none      
-&kp SLCK    	&none    	&none    	&none	&none       	&kp P       	&kp O       	&kp I       	&kp U    	&none       	&kp R   	&none    	&none      
-&kp PSCRN	&none    	&kp PG_DN	&none	&kp F11     	&kp N0      	&kp N9      	&kp N8      	&kp N7   	&kp F10     	&kp N4  	&none    	&none      
-&kp LCTRL   	&none    	&kp PG_UP       	&none	&kp DEL     	&kp MINUS   	&kp F8      	&kp EQUAL   	&kp N6   	&kp F9      	&kp N5  	&none    	&none      
-&none       	&none    	&none    	&none	&none       	&kp LBKT    	&kp F7      	&kp RBKT    	&kp Y    	&kp BSPC    	&kp T   	&none    	&kp LSHFT   
-&kp LALT    	&none    	&none    	&none	&none       	&kp APOS    	&none       	&kp F6      	&kp H    	&kp F5      	&kp G   	&none    	&none          
+&bt BT_CLR    	&kp RCTRL	&kp RCTRL	&kp RIGHT	&kp DOWN    	&kp FSLH    	&none       	&none       	&kp N    	&kp SPACE   	&kp B   	&kp RCTRL	&kp RCTRL
+&bootloader   	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp RCTRL	&none       	&kp DOT     	&kp COMMA   	&kp M    	&kp ENTER   	&kp V   	&kp RCTRL	&kp RSHFT
+&none       	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp SEMI    	&kp L       	&kp K       	&kp J    	&kp BSLH    	&kp F   	&kp RCTRL	&kp RCTRL
+&kp SLCK    	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp P       	&kp O       	&kp I       	&kp U    	&none       	&kp R   	&kp RCTRL	&kp RCTRL
+&kp PSCRN	&kp RCTRL	&kp PG_DN	&kp RCTRL	&kp F11     	&kp N0      	&kp N9      	&kp N8      	&kp N7   	&kp F10     	&kp N4  	&kp RCTRL	&kp RCTRL
+&kp LCTRL   	&kp RCTRL	&kp PG_UP       	&kp RCTRL	&kp DEL     	&kp MINUS   	&kp F8      	&kp EQUAL   	&kp N6   	&kp F9      	&kp N5  	&kp RCTRL	&kp RCTRL
+&none       	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp LBKT    	&kp F7      	&kp RBKT    	&kp Y    	&kp BSPC    	&kp T   	&kp RCTRL	&kp LSHFT   
+&kp LALT    	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp RCTRL	&kp APOS    	&none       	&kp F6      	&kp H    	&kp F5      	&kp G   	&kp RCTRL	&kp RCTRL
+       
                 
             >;          
         };
