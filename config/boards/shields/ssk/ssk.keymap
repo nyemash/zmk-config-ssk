@@ -9,7 +9,7 @@
         default_layer {
 
             bindings = <
-                &kp RALT    &none         &none      &kp RIGHT  &kp DOWN   &none      &none    &kp LEFT     &kp N   &kp SPACE   &kp B    &none                      &kp FLSH
+                &kp RALT    &none         &none      &kp RIGHT  &kp DOWN   &none      &none    &kp LEFT     &kp N   &kp SPACE   &kp B    &none                      &kp FSLH
                 &kp RCTRL   &kp C         &kp DOT    &kp RSHFT  &none      &kp X      &kp DOT  &bootloader  &kp M   &kp ENTER   &kp V    &kp Z                      &none
                 &none       &kp D         &kp L      &none      &none      &kp S      &kp L    &none        &kp J   &kp BSLH    &kp F    &kp A                         &kp SEMI
                 &kp SLCK    &kp E         &kp O      &none      &none      &kp W      &kp O    &none        &kp U   &none       &kp R    &kp Q                            &kp P
