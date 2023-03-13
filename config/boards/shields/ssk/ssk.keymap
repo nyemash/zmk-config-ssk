@@ -13,10 +13,10 @@
 &bootloader   	&none    	&none    	&none	&none	&none       	&kp DOT     	&kp COMMA   	&kp M    	&kp ENTER   	&kp V   	&none    	&kp RSHFT
 &none       	&none    	&none    	&none	&none       	&kp SEMI    	&kp L       	&kp K       	&kp J    	&kp BSLH    	&kp F   	&none    	&none      
 &kp SLCK    	&none    	&none    	&none	&none       	&kp P       	&kp O       	&kp I       	&kp U    	&none       	&kp R   	&none    	&none      
-&kp PSCRN	&none    	&none    	&kp PG_DN	&kp F11     	&kp N0      	&kp N9      	&kp N8      	&kp N7   	&kp F10     	&kp N4  	&none    	&none      
-&kp LCTRL   	&none    	&none    	&kp PG_UP       	&kp DEL     	&kp MINUS   	&kp F8      	&kp EQUAL   	&kp N6   	&kp F9      	&kp N5  	&none    	&none      
+&kp PSCRN	&none    	&kp PG_DN	&none	&kp F11     	&kp N0      	&kp N9      	&kp N8      	&kp N7   	&kp F10     	&kp N4  	&none    	&none      
+&kp LCTRL   	&none    	&kp PG_UP       	&none	&kp DEL     	&kp MINUS   	&kp F8      	&kp EQUAL   	&kp N6   	&kp F9      	&kp N5  	&none    	&none      
 &none       	&none    	&none    	&none	&none       	&kp LBKT    	&kp F7      	&kp RBKT    	&kp Y    	&kp BSPC    	&kp T   	&none    	&kp LSHFT   
-&kp LALT    	&none    	&none    	&none	&none       	&kp APOS    	&none       	&kp F6      	&kp H    	&kp F5      	&kp G   	&none    	&none      
+&kp LALT    	&none    	&none    	&none	&none       	&kp APOS    	&none       	&kp F6      	&kp H    	&kp F5      	&kp G   	&none    	&none          
                 
             >;          
         };
