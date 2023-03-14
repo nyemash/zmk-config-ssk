@@ -7,9 +7,12 @@
 &pro_micro_spi {
 	status = "okay";
 	cs-gpios = <&pro_micro 1 GPIO_ACTIVE_LOW>;
-    miso-pin = <14>;
-    mosi-pin = <16>;
-    sck-pin = <15>;
+    //miso-pin = <14>;
+    //mosi-pin = <16>;
+    //sck-pin = <15>;
+    miso-pin = <11>;
+    mosi-pin = <10>;
+    sck-pin = <13>;    
 	shifter: 595@0 {
 		compatible = "zmk,gpio-595";
 		status = "okay";
