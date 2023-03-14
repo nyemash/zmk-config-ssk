@@ -4,7 +4,7 @@
 
 &pro_micro_spi {
 	status = "okay";
-	cs-gpios = <&pro_micro 10 GPIO_ACTIVE_LOW>;
+	cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
     mosi-pin = <(32*0+10)>;
     sck-pin = <(32*1+13)>;    
 
@@ -14,7 +14,7 @@
 		compatible = "zmk,gpio-595";
 		status = "okay";
 		gpio-controller;
-		spi-max-frequency = <125000>;
+		spi-max-frequency = <200000>;
 		reg = <0>;
 		label = "4HC595";
 		#gpio-cells = <2>;
