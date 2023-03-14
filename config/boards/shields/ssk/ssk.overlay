@@ -1,24 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-//&pro_micro_serial { status = "disabled"; };
 
-&pro_micro_spi {
-	status = "okay";
-	//cs-gpios = <&pro_micro 9 GPIO_ACTIVE_LOW>;
-    miso-pin = <1>;
-    mosi-pin = <16>;
-    sck-pin = <15>;
-	shifter: 595@0 {
-		compatible = "zmk,gpio-595";
-		status = "okay";
-		gpio-controller;
-		spi-max-frequency = <200000>;
-		reg = <0>;
-		label = "4HC595";
-		#gpio-cells = <2>;
-		ngpios = <8>;
-	};
-};
 
 / {
     chosen {
@@ -31,9 +13,8 @@
         diode-direction = "col2row";
 
         col-gpios
-            = <&shifter 7 GPIO_ACTIVE_HIGH>
-			, <&shifter 6 GPIO_ACTIVE_HIGH>            
-			, <&shifter 5 GPIO_ACTIVE_HIGH>                  
+            = <&pro_micro 8 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 9 GPIO_ACTIVE_HIGH>        
             ;
 
         row-gpios
