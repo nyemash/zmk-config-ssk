@@ -2,7 +2,7 @@
 
 &pro_micro_i2c { status = "disabled"; };
 
-&nice_nano_spi {
+nice_nano_spi : spi0 {
 	status = "okay";
 	cs-gpios = <&pro_micro 9 GPIO_ACTIVE_LOW>;
 	shifter: 595@0 {
