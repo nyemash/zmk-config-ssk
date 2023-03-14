@@ -1,2 +1,3 @@
 config SHIELD_SSK
     def_bool $(shields_list_contains,ssk)
+    select SPI
