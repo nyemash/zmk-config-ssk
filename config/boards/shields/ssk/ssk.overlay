@@ -1,15 +1,16 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&pro_micro_serial { status = "disabled"; };
+//&pro_micro_serial { status = "disabled"; };
 
 &pro_micro_spi {
 	status = "okay";
-	cs-gpios = <&pro_micro 1 GPIO_ACTIVE_LOW>;
-	//cs-gpios = <&pro_micro 10 GPIO_ACTIVE_LOW>;
-    miso-pin = <24>;
-    mosi-pin = <10>;
-    sck-pin = <11>;    
-	//sck-pin = <11>;    
+	cs-gpios = <&pro_micro 10 GPIO_ACTIVE_LOW>;
+	
+	miso-pin = <(32*1+11)>;
+
+    mosi-pin = <(32*0+10)>;
+    sck-pin = <(32*1+13)>;    
+	 
 	shifter: 595@0 {
 		compatible = "zmk,gpio-595";
 		status = "okay";
