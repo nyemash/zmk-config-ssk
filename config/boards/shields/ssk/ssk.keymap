@@ -9,14 +9,15 @@
         default_layer {
 
             bindings = <
-&bt BT_CLR    	&none    
-&bootloader   	&kp C    
-&none       	&kp D    
-&kp SLCK    	&kp E    
-&kp PSCRN	&kp N3   
-&kp LCTRL   	&kp F2   
-&none       	&kp F3   
-&kp LALT    	&kp F4   
+&bt BT_CLR    	&kp LEFT      	&none    
+&bootloader   	&kp PAUSE_BREAK	&kp C    
+&none       	&none         	&kp D    
+&kp SLCK    	&none         	&kp E    
+&kp PSCRN	&kp END       	&kp N3   
+&kp LCTRL   	&kp HOME      	&kp F2   
+&none       	&none         	&kp F3   
+&kp LALT    	&kp UP        	&kp F4   
+
 
             >;          
         };
