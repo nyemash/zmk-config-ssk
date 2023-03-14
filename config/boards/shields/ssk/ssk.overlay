@@ -1,10 +1,10 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&xiao_serial { status = "disabled"; };
+&pro_micro_serial { status = "disabled"; };
 
-&xiao_spi {
+&pro_micro_spi {
 	status = "okay";
-	cs-gpios = <&xiao_d 9 GPIO_ACTIVE_LOW>;
+	cs-gpios = <&pro_micro 9 GPIO_ACTIVE_LOW>;
 	shifter: 595@0 {
 		compatible = "zmk,gpio-595";
 		status = "okay";
