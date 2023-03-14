@@ -5,7 +5,7 @@
 &pro_micro_spi {
 	status = "okay";
 	//cs-gpios = <&pro_micro 9 GPIO_ACTIVE_LOW>;
-    miso-pin = <9>;
+    miso-pin = <1>;
     mosi-pin = <16>;
     sck-pin = <15>;
 	shifter: 595@0 {
