@@ -10,7 +10,7 @@
         default_layer {
 
             bindings = <
-&kp LEFT      	&out OUT_TOG	&bootloader
+&kp LEFT      	&kp LEFT	&kp LEFT
             >;          
         };
     };

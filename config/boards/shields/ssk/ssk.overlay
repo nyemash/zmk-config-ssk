@@ -5,10 +5,7 @@
 &pro_micro_spi {
 	status = "okay";
 	cs-gpios = <&pro_micro 1 GPIO_ACTIVE_LOW>;
-    //miso-pin = <14>;
-    //mosi-pin = <16>;
-    //sck-pin = <15>;
-    miso-pin = <6>;
+    miso-pin = <11>;
     mosi-pin = <10>;
     sck-pin = <13>;    
 	shifter: 595@0 {
@@ -26,6 +23,7 @@
 / {
     chosen {
         zmk,kscan = &default_kscan;
+		zmk,matrix_transform = &default_transform;
     };
 
     default_kscan: kscan {
@@ -43,5 +41,16 @@
             = <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>          
             ;
     };
+
+
+	default_transform: keymap_transform_0 {
+		compatible = "zmk,matrix-transform";
+		columns = <3>;
+		rows = <1>;
+	
+		map = <
+            RC(0,0) RC(0,1) RC(0,2)
+		>;
+	};   	
  
 };
