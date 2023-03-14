@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&pro_micro_serial { status = "disabled"; };
+//&pro_micro_serial { status = "disabled"; };
 
 &pro_micro_spi {
 	status = "okay";
