@@ -8,7 +8,7 @@
     //miso-pin = <14>;
     //mosi-pin = <16>;
     //sck-pin = <15>;
-    miso-pin = <11>;
+    miso-pin = <6>;
     mosi-pin = <10>;
     sck-pin = <13>;    
 	shifter: 595@0 {
