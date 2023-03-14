@@ -3,4 +3,7 @@ if SHIELD_SSK
 config ZMK_KEYBOARD_NAME
     default "SSKoy"
 
+config SPI
+    default y
+    
 endif

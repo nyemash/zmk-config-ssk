@@ -4,7 +4,7 @@
 
 &pro_micro_spi {
 	status = "okay";
-	cs-gpios = <&pro_micro 1 GPIO_ACTIVE_LOW>;
+	cs-gpios = <&pro_micro 10 GPIO_ACTIVE_LOW>;
     mosi-pin = <(32*0+10)>;
     sck-pin = <(32*1+13)>;    
 
@@ -14,7 +14,7 @@
 		compatible = "zmk,gpio-595";
 		status = "okay";
 		gpio-controller;
-		spi-max-frequency = <200000>;
+		spi-max-frequency = <125000>;
 		reg = <0>;
 		label = "4HC595";
 		#gpio-cells = <2>;
@@ -33,24 +33,24 @@
         label = "default_kscan";
         diode-direction = "col2row";
 
-        col-gpios
-            = <&shifter 7 GPIO_ACTIVE_HIGH>
-			, <&shifter 6 GPIO_ACTIVE_HIGH>            
-			, <&shifter 5 GPIO_ACTIVE_HIGH>                  
-			, <&pro_micro 9 GPIO_ACTIVE_HIGH>          
+        row-gpios
+            = <&pro_micro 0 (GPIO_ACTIVE_LOW)>          
             ;
 
-        row-gpios
-            = <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>          
-            ;
+        col-gpios
+            = <&shifter 7 GPIO_ACTIVE_LOW>
+			, <&shifter 6 GPIO_ACTIVE_LOW>            
+			, <&shifter 5 GPIO_ACTIVE_LOW>                  
+			, <&pro_micro 9 GPIO_ACTIVE_LOW>          
+            ;			
     };
 
 
 	default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
+		rows = <1>;		
 		columns = <3>;
-		rows = <1>;
-	
+
 		map = <
             RC(0,0) RC(0,1) RC(0,2) RC(0,3)
 		>;
