@@ -4,12 +4,11 @@
 
 &pro_micro_spi {
 	status = "okay";
-	cs-gpios = <&pro_micro 10 GPIO_ACTIVE_LOW>;
-	
-	miso-pin = <(32*1+11)>;
-
+	cs-gpios = <&pro_micro 1 GPIO_ACTIVE_LOW>;
     mosi-pin = <(32*0+10)>;
     sck-pin = <(32*1+13)>;    
+
+	miso-pin = <(32*1+11)>;
 	 
 	shifter: 595@0 {
 		compatible = "zmk,gpio-595";
@@ -35,14 +34,14 @@
         diode-direction = "col2row";
 
         col-gpios
-            = <&shifter 7 GPIO_ACTIVE_LOW>
-			, <&shifter 6 GPIO_ACTIVE_LOW>            
-			, <&shifter 5 GPIO_ACTIVE_LOW>                  
-			, <&pro_micro 9 GPIO_ACTIVE_LOW>          
+            = <&shifter 7 GPIO_ACTIVE_HIGH>
+			, <&shifter 6 GPIO_ACTIVE_HIGH>            
+			, <&shifter 5 GPIO_ACTIVE_HIGH>                  
+			, <&pro_micro 9 GPIO_ACTIVE_HIGH>          
             ;
 
         row-gpios
-            = <&pro_micro 0 (GPIO_ACTIVE_LOW)>          
+            = <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>          
             ;
     };
 
