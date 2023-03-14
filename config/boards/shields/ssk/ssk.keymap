@@ -9,17 +9,7 @@
         default_layer {
 
             bindings = <
-&bt BT_CLR    	&kp LEFT      	&none	&kp RIGHT	&kp DOWN    	&kp FSLH    	&none       	&none       	&kp N    	&kp SPACE   	&kp B   	&none      	&none    
-&bootloader   	&kp PAUSE_BREAK	&none	&none	&none	&none       	&kp DOT     	&kp COMMA   	&kp M    	&kp ENTER   	&kp V   	&kp Z      	&kp RSHFT
-&none       	&none         	&none	&none       	&none       	&kp SEMI    	&kp L       	&kp K       	&kp J    	&kp BSLH    	&kp F   	&kp A      	&none    
-&kp SLCK    	&none         	&none	&none       	&none       	&kp P       	&kp O       	&kp I       	&kp U    	&none       	&kp R   	&kp Q      	&none    
-&kp PSCRN	&kp END       	&kp PG_DN	&kp F12    	&kp F11     	&kp N0      	&kp N9      	&kp N8      	&kp N7   	&kp F10     	&kp N4  	&kp N1     	&none    
-&kp LCTRL   	&kp HOME      	&kp PG_UP       	&kp INS	&kp DEL     	&kp MINUS   	&kp F8      	&kp EQUAL   	&kp N6   	&kp F9      	&kp N5  	&kp TILDE  	&none    
-&none       	&none         	&none	&none       	&none       	&kp LBKT    	&kp F7      	&kp RBKT    	&kp Y    	&kp BSPC    	&kp T   	&kp TAB    	&kp LSHFT   
-&kp LALT    	&kp UP        	&none	&none       	&none       	&kp APOS    	&none       	&kp F6      	&kp H    	&kp F5      	&kp G   	&kp ESC    	&none    
-
-
-
+&kp LEFT      	&kp RIGHT	&bootloader
             >;          
         };
     };
