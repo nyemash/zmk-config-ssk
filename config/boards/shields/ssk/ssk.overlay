@@ -6,6 +6,7 @@
 	status = "okay";
 	cs-gpios = <&pro_micro 9 GPIO_ACTIVE_LOW>;
     miso-pin = <14>;
+    sck-pin = <15>;
 	shifter: 595@0 {
 		compatible = "zmk,gpio-595";
 		status = "okay";
