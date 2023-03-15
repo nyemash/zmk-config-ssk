@@ -4,7 +4,7 @@
 
 &pro_micro_spi {
 	status = "okay";
-	cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
+	cs-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
     mosi-pin = <(32*0+10)>;
     sck-pin = <(32*1+13)>;    
 
