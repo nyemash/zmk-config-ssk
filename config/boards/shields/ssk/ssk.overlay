@@ -36,10 +36,7 @@ default_kscan: kscan {
             , <&pro_micro 9 GPIO_ACTIVE_LOW>
             , <&gpio1 1 GPIO_ACTIVE_LOW>
             , <&gpio1 2 GPIO_ACTIVE_LOW>
-            , <&gpio1 7 GPIO_ACTIVE_LOW>
-            , <&pro_micro 16 GPIO_ACTIVE_LOW>
-            , <&pro_micro 14 GPIO_ACTIVE_LOW>
-            , <&pro_micro 15 GPIO_ACTIVE_LOW>
+            , <&gpio1 7 GPIO_ACTIVE_LOW>           
             , <&pro_micro 18 GPIO_ACTIVE_LOW>
             , <&pro_micro 19 GPIO_ACTIVE_LOW>   
             , <&pro_micro 20 GPIO_ACTIVE_LOW>
@@ -49,6 +46,9 @@ default_kscan: kscan {
 			, <&shifter 5 GPIO_ACTIVE_LOW>
 			, <&shifter 4 GPIO_ACTIVE_LOW>
 			, <&shifter 3 GPIO_ACTIVE_LOW>
+			, <&shifter 2 GPIO_ACTIVE_LOW>
+			, <&shifter 1 GPIO_ACTIVE_LOW>		
+			, <&shifter 15 GPIO_ACTIVE_LOW>			
             ;
 
         row-gpios
