@@ -1,8 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&pro_micro_serial { status = "disabled"; };
-
 &pro_micro_spi {
+	compatible = "nordic,nrf-spim";
 	status = "okay";
 	cs-gpios = <&pro_micro 10 GPIO_ACTIVE_LOW>;
     mosi-pin = <(32*0+10)>;
