@@ -40,7 +40,7 @@
             = <&shifter 7 GPIO_ACTIVE_LOW>
 			, <&shifter 6 GPIO_ACTIVE_LOW>            
 			, <&shifter 5 GPIO_ACTIVE_LOW>                  
-			, <&pro_micro 9 GPIO_ACTIVE_LOW>          
+			, <&pro_micro 9 GPIO_ACTIVE_HIGH>          
             ;			
     };
 
