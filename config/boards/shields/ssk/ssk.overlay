@@ -1,7 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 &pro_micro_spi {
-	compatible = "nordic,nrf-spim";
 	status = "okay";
 	cs-gpios = <&pro_micro 10 GPIO_ACTIVE_LOW>;
     mosi-pin = <(32*0+10)>;
@@ -47,8 +46,7 @@ default_kscan: kscan {
 			, <&shifter 4 GPIO_ACTIVE_LOW>
 			, <&shifter 3 GPIO_ACTIVE_LOW>
 			, <&shifter 2 GPIO_ACTIVE_LOW>
-			, <&shifter 1 GPIO_ACTIVE_LOW>		
-			, <&shifter 15 GPIO_ACTIVE_LOW>			
+			, <&shifter 1 GPIO_ACTIVE_LOW>
             ;
 
         row-gpios
