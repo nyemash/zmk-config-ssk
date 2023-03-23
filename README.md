@@ -9,7 +9,7 @@ Converting SSK to bluetooth by replacing the controller with a nice!nano v2 and 
 ## Stuff
 Gerber files below for JLCPCB but never had a chance to have this fabricated. Made some adjustments with this one based on the mistakes I learned from the prior version; which what I'm using. Adjustments were basically moving stuff around since parts were hitting the backplate. Might end up getting it done to have a cleaner build but I'm out of parts.
 
-[Fab.zip](https://github.com/nyemash/zmk-config-ssk/files/11052187/Fab.zip)
+... to add
 
 Some pics.
 
