@@ -4,19 +4,24 @@
 There might be the right way to do this but this works for me. Just learned ZMK, GitHub and KiCad to do this project in a short period of time so this might be pretty rough for those who know what they are doing. Had no intention to start this but had an extra n!n so why not.
 
 ## Description
-Converting SSK to bluetooth by replacing the controller with a nice!nano v2 and a 595 shift register running on ZMK.
+Bluetooth-ed my SSK by replacing the controller with a nice!nano v2 and a 595 shift register running on ZMK.
 
 ## Stuff
 Gerber files below for JLCPCB but never had a chance to have this fabricated. Made some adjustments with this one based on the mistakes I learned from the prior version; which what I'm using. Adjustments were basically moving stuff around since parts were hitting the backplate. Might end up getting it done to have a cleaner build but I'm out of parts.
 
 ... to add
 
-Pics on what I need to fix.
+Pics and list on what I had to fix on my 2nd pcb / for my 3rd.
 
-Made the switch diagonal since the trace was wrong, removed the plastic housing on the battery connector since what I had in hand is a vertical one causing the LiPo connector interfere with the backplate, made the mounting hole bigger and lastly clipped some of the excess solder on the nano since it was also hitting the backplate.
+* Reset - reason for the slanted switch; to correct trace
+* Batt connector - vertical mount made it interfere with backplate; use a horizontal female connector or move it up
+* Mounting hole securing the PCB by the two pegs - a little too high thus cannot flush pcb; had to drill it bigger; need to move it down a bit
+* MCU - interferes with backplate; don't use hotswap socket (had to clip some solder to avoid contact) or move it up
+* PCB height - need allowance to let it slot in more easier to the case
+* Batt switch - pegs doesn't fit the PCB hole/connector; to correct the footprint
+
 ![image](https://user-images.githubusercontent.com/83567311/227261189-3442c988-3901-487a-ae98-6c2f759782df.png)
 
-On/off where the pegs didn't fit the mounting hole.
 ![IMG_6562](https://user-images.githubusercontent.com/83567311/227259389-01cefa91-4113-45e8-a1d3-eea79b02a6fb.JPG)
 
 ## References/prior work
