@@ -7,9 +7,9 @@ There might be the right way to do this but this works for me. Just learned ZMK,
 Converting SSK to bluetooth by replacing the controller with a nice!nano v2 and a 595 shift register running on ZMK.
 
 ## Stuff
-Gerber files below but never had a chance to have this fabricated. Made some adjustments with this one based on the mistakes I learned from the prior version; which what I'm now using. Adjustments were basically moving stuff around since parts were hitting the backplate. Might end up getting it done to have a cleaner build but I'm out of parts.
+Gerber files below for JLCPCB but never had a chance to have this fabricated. Made some adjustments with this one based on the mistakes I learned from the prior version; which what I'm now using. Adjustments were basically moving stuff around since parts were hitting the backplate. Might end up getting it done to have a cleaner build but I'm out of parts.
 
-<<to attach>>
+> to attach
 
 ## References/prior work
 Made things easier.
