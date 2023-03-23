@@ -4,7 +4,7 @@
 There might be the right way to do this but this works for me. Just learned ZMK, GitHub and KiCad to do this project in a short period of time so this might be pretty rough for those who know what they are doing. Had no intention to start this but had an extra n!n so why not.
 
 ## Description
-Bluetooth-ed my SSK by replacing the controller with a nice!nano v2 and a 595 shift register running on ZMK.
+Bluetooth-ed my SSK by replacing the controller with a nice!nano v2 (21 pins) and a 595 shift register (8 pins addional but using 3 if the n!n) running on ZMK.
 
 ## Stuff
 Gerber files below for JLCPCB but never had a chance to have this fabricated. Made some adjustments with this one based on the mistakes I learned from the prior version; which what I'm using. Adjustments were basically moving stuff around since parts were hitting the backplate. Might end up getting it done to have a cleaner build but I'm out of parts.
