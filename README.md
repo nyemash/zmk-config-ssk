@@ -13,8 +13,8 @@ Gerber files below for JLCPCB but never had a chance to have this fabricated. Ma
 
 Some pics.
 
-Made the switch diagonal since the trace was wrong and removed the plastic housing on the battery connector since what I have in hand is a vertical one causing the LiPo connector interfer with the backplate. 
-![IMG_6560](https://user-images.githubusercontent.com/83567311/227260574-6d968297-058f-41c7-8c47-e7c31bf67380.jpg)
+Made the switch diagonal since the trace was wrong, removed the plastic housing on the battery connector since what I had in hand is a vertical one causing the LiPo connector interfer with the backplate and lastly clipped some of the excess solder on the nano since it was also hitting the backplate.
+![image](https://user-images.githubusercontent.com/83567311/227261189-3442c988-3901-487a-ae98-6c2f759782df.png)
 
 On/off where the pegs didn't fit the mounting hole.
 ![IMG_6562](https://user-images.githubusercontent.com/83567311/227259389-01cefa91-4113-45e8-a1d3-eea79b02a6fb.JPG)
