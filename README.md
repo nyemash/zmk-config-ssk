@@ -37,8 +37,8 @@ As for materials (some might not be the best selection, but had to work with wha
 ## References & Guide
 Made things easier.
 
-* phosphorglow on DT: https://deskthority.net/viewtopic.php?t=8149
-* iw0rm3r on GitHub:  https://github.com/qmk/qmk_firmware/blob/master/keyboards/converter/modelm101/readme.md
-* Joe Scotto on YT: https://www.youtube.com/watch?v=O_urj-rF3bQ
-* infinityis on GitHub: https://github.com/customMK/zmk/tree/engikeeb/app/boards/shields/engikeeb
+* phosphorglow on DT - for matrix: https://deskthority.net/viewtopic.php?t=8149
+* iw0rm3r on GitHub - for parts:  https://github.com/qmk/qmk_firmware/blob/master/keyboards/converter/modelm101/readme.md
+* Joe Scotto on YT - excellent starter guide for building your own ZMK firmware: https://www.youtube.com/watch?v=O_urj-rF3bQ
+* infinityis on GitHub - example of using 595 with n!n: https://github.com/customMK/zmk/tree/engikeeb/app/boards/shields/engikeeb
 * ZMK Discord
