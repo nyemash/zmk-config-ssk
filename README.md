@@ -1,20 +1,20 @@
 # zmk-config-ssk
 
 ## Notice
-There might be the right way to do this but this works for me. Just learned ZMK, GitHub and KiCad to do this project in a short period of time so this might be pretty rough for those who know what they are doing. Had no intention to start this but had an extra n!n so why not.
+There might be the right way to do this but this works for me. Learned ZMK, GitHub and KiCad to do this project for a short period of time so this might be pretty rough specially for those who know what they are doing. Had no intention to do this but had an extra nice!nano to try a wireless rotary so why not.
 
 ## Description
-Bluetooth-ed my SSK by replacing the controller with a nice!nano v2 (21 pins) and a 595 shift register (8 pins addional but using 3 of the n!n) running on ZMK. You can do 22 pins for SSK (8R x 16C) but need to merge 2 columns with another 2.
+Bluetooth-ed my SSK by replacing the controller with a n!n v2 (21 pins) and a 595 shift register (8 pins but using 3 of the n!n) running on ZMK. You can do 22 pins for SSK (8R x 16C) but need to merge 2 columns with another 2 or if you want, drop another column then n!n would do fine.
 
 ## Stuff
 Gerber files below for JLCPCB but never had a chance to have this fabricated. Made some adjustments with this one based on the mistakes I learned from the prior version; which what I'm using. Adjustments were basically moving stuff around since parts were hitting the backplate. Might end up getting it done to have a cleaner build but I'm out of parts.
 
-... to add
+[SSKoy.zip](https://github.com/nyemash/zmk-config-ssk/files/11057691/SSKoy.zip)
 
-Pics and list on what I had to fix on my 2nd pcb / for my 3rd.
+Pics and list on what I had to fix on my 2nd pcb / and going to 3rd.
 
 * Reset - reason for the slanted switch; to correct trace
-* Batt connector - vertical mount made it interfere with backplate; use a horizontal female connector or move it up
+* Batt connector - used a vertical mount that interfered with backplate; use a horizontal female connector or move it up
 * Mounting hole securing the PCB by the two pegs - a little too high thus cannot flush pcb; had to drill it bigger; need to move it down a bit
 * MCU - interferes with backplate; don't use hotswap socket (had to clip some solder to avoid contact) or move it up
 * PCB height - need allowance to let it slot in more easier to the case
@@ -24,10 +24,11 @@ Pics and list on what I had to fix on my 2nd pcb / for my 3rd.
 
 ![IMG_6562](https://user-images.githubusercontent.com/83567311/227259389-01cefa91-4113-45e8-a1d3-eea79b02a6fb.JPG)
 
-## References/prior work
+## References & Guide
 Made things easier.
 
 * phosphorglow on DT: https://deskthority.net/viewtopic.php?t=8149
 * iw0rm3r on GitHub:  https://github.com/qmk/qmk_firmware/blob/master/keyboards/converter/modelm101/readme.md
 * Joe Scotto on YT: https://www.youtube.com/watch?v=O_urj-rF3bQ
+* infinityis on GitHub: https://github.com/customMK/zmk/tree/engikeeb/app/boards/shields/engikeeb
 * ZMK Discord
