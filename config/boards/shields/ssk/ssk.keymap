@@ -30,11 +30,11 @@
                 &none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
                 &none       	&bootloader	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
                 &none       	&none         	&none      	&none      	&none      	&none       	&none       	&none       	&none       	&none       	&none       	&kp LG(D)	&none       	&none       	&none       	&none       
-                &bt BT_CLR	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&kp LG(R)	&kp LG(E)	&none         	&kp LC(Q)	&none         	&none         
-                &out OUT_TOG     	&none         	&bt BT_PRV	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&kp LA(F4)	&none         	&kp C_VOL_DN	&kp C_VOL_UP	&none         	&none         
-                &none       	&none         	&bt BT_NXT	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&kp LC(LS(F1)) 	&none         	&none         
+                &bt BT_CLR	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&kp LG(R)	&kp LG(E)	&kp LG(W)	&kp LA(F4)	&none         	&none         
+                &out OUT_TOG     	&none         	&bt BT_PRV	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&kp C_VOL_DN	&kp C_VOL_UP	&none         	&none         
+                &none       	&none         	&bt BT_NXT	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&kp LC(LA(F1)) 	&none         	&none         
                 &none       	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         
-                &kp C_AL_DOCUMENTS	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&trans	&none         	&none         
+                &kp K_WWW	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&trans	&none         	&none         
             >;          
         };
     };
