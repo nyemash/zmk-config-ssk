@@ -24,6 +24,16 @@ Pics and list on what I had to fix on my 2nd pcb / and going to 3rd.
 
 ![IMG_6562](https://user-images.githubusercontent.com/83567311/227259389-01cefa91-4113-45e8-a1d3-eea79b02a6fb.JPG)
 
+As for materials
+1. nice!nano v2
+2. 74HC595
+3. https://sg.element14.com/amp-te-connectivity/5-520315-8/connector-ffc-fpc-8pos-2-54mm/dp/2890849
+4. https://sg.element14.com/amp-te-connectivity/6-520315-6/conn-ffc-fpc-16pos-1row-2-54mm/dp/3791494
+5. https://sg.element14.com/c-k-components/os102011ma1qn1/switch-spdt-0-1a-12v-pcb-r-a/dp/1201431
+6. Mini 4-pin Push Button Switch
+7. JST 2 Pin PCB header
+8. LiPo
+
 ## References & Guide
 Made things easier.
 
