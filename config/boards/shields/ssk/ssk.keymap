@@ -10,10 +10,10 @@
         default_layer {
 
             bindings = <
-                &bt BT_CLR	    &kp LEFT      	&none      	&kp RIGHT	&kp DOWN   	&kp FSLH    	&none       	&none       	&kp N    	&kp SPACE   	&kp B   	&none    	&none    	&none      	&none      	&none 
-                &none       	&kp PAUSE_BREAK	&none      	&none      	&none      	&none       	&kp DOT     	&kp COMMA   	&kp M    	&kp ENTER   	&kp V   	&kp C    	&kp X    	&kp Z      	&kp RSHFT	&bootloader
+                &kp RALT	    &kp LEFT      	&none      	&kp RIGHT	&kp DOWN   	&kp FSLH    	&none       	&none       	&kp N    	&kp SPACE   	&kp B   	&none    	&none    	&none      	&none      	&none 
+                &none       	&bootloader	    &none      	&none      	&none      	&none       	&kp DOT     	&kp COMMA   	&kp M    	&kp ENTER   	&kp V   	&kp C    	&kp X    	&kp Z      	&kp RSHFT	&kp RCTRL
                 &none       	&none         	&none      	&none      	&none      	&kp SEMI    	&kp L       	&kp K       	&kp J    	&kp BSLH    	&kp F   	&kp D    	&kp S    	&kp A      	&none      	&none
-                &kp SLCK    	&none         	&none      	&none      	&none      	&kp P       	&kp O       	&kp I       	&kp U    	&none       	&kp R   	&kp E    	&kp W    	&kp Q      	&none      	&none
+                &bt BT_CLR    	&none         	&none      	&none      	&none      	&kp P       	&kp O       	&kp I       	&kp U    	&none       	&kp R   	&kp E    	&kp W    	&kp Q      	&none      	&none
                 &kp PSCRN	    &kp END       	&kp PG_DN	&kp F12	    &kp F11    	&kp N0      	&kp N9      	&kp N8      	&kp N7   	&kp F10     	&kp N4  	&kp N3   	&kp N2   	&kp N1     	&none      	&none
                 &none       	&kp HOME      	&kp PG_UP   &kp INS 	&kp DEL    	&kp MINUS   	&kp F8      	&kp EQUAL   	&kp N6   	&kp F9      	&kp N5  	&kp F2   	&kp F1   	&kp TILDE  	&none      	&kp LCTRL
                 &none       	&none         	&none      	&none      	&none      	&kp LBKT    	&kp F7      	&kp RBKT    	&kp Y    	&kp BSPC    	&kp T   	&kp F3   	&kp CAPS 	&kp TAB    	&kp LSHFT  	&none
