@@ -24,7 +24,7 @@ Pics and list on what I had to fix on my 2nd pcb / and going to 3rd.
 
 ![IMG_6562](https://user-images.githubusercontent.com/83567311/227259389-01cefa91-4113-45e8-a1d3-eea79b02a6fb.JPG)
 
-As for materials
+As for materials (some might not be the best selection, but had to work with what I already have)
 1. nice!nano v2
 2. 74HC595
 3. https://sg.element14.com/amp-te-connectivity/5-520315-8/connector-ffc-fpc-8pos-2-54mm/dp/2890849
