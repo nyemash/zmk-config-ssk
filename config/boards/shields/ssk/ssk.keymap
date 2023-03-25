@@ -19,7 +19,7 @@
                 &kp SLCK	&none         	&none      	&none      	&none      	&kp P       	&kp O       	&kp I       	&kp U    	&none       	&kp R   	&kp E    	&kp W    	&kp Q      	&none      	&none      
                 &kp PSCRN	&kp END       	&kp PG_DN	&kp F12	&kp F11     	&kp N0      	&kp N9      	&kp N8      	&kp N7   	&kp F10     	&kp N4  	&kp N3   	&kp N2   	&kp N1     	&none      	&none      
                 &none       	&kp HOME      	&kp PG_UP       	&kp INS	&kp DEL     	&kp MINUS   	&kp F8      	&kp EQUAL   	&kp N6   	&kp F9      	&kp N5  	&kp F2   	&kp F1   	&kp TILDE  	&none      	&kp RCTRL
-                &none       	&none         	&none      	&none      	&none      	&kp LBKT    	&kp F7      	&kp RBKT    	&kp Y    	&kp BSPC    	&kp T   	&kp F3   	&lt COMMON LWIN	&kp TAB    	&kp LSHFT   	&none      
+                &none       	&none         	&none      	&none      	&none      	&kp LBKT    	&kp F7      	&kp RBKT    	&kp Y    	&kp BSPC    	&kp T   	&kp F3   	&lt COMMON LWIN	&kp TAB    	&kp RSHFT   	&none      
                 &kp LALT    	&kp UP        	&none      	&none      	&none      	&kp APOS    	&none       	&kp F6      	&kp H    	&kp F5      	&kp G   	&kp F4   	&none    	&kp ESC    	&none      	&none      
             >;          
         };
