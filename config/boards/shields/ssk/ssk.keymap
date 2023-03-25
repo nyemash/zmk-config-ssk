@@ -4,38 +4,52 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define DEFAULT 0
-#define COMBO 1
+#define COMMON 1
+#define OTHERS 2
 
 / {
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-
             bindings = <
-                &kp K_MENU	&kp LEFT      	&none      	&kp RIGHT	&kp DOWN    	&kp FSLH    	&none       	&none       	&kp N    	&kp SPACE   	&kp B   	&none    	&none    	&none      	&none      	&none      
-                &none       	&kp PAUSE_BREAK	&none      	&none      	&none      	&none       	&kp DOT     	&kp COMMA   	&kp M    	&kp ENTER   	&kp V   	&kp C    	&kp X    	&kp Z      	&kp RSHFT	&kp RCTRL
+                &kp RALT	&kp LEFT      	&none      	&kp RIGHT	&kp DOWN    	&kp FSLH    	&none       	&none       	&kp N    	&kp SPACE   	&kp B   	&none    	&none    	&none      	&none      	&none      
+                &none       	&kp PAUSE_BREAK	&none      	&none      	&none      	&none       	&kp DOT     	&kp COMMA   	&kp M    	&kp ENTER   	&kp V   	&kp C    	&kp X    	&kp Z      	&kp RSHFT	&lt OTHERS K_APP
                 &none       	&none         	&none      	&none      	&none      	&kp SEMI    	&kp L       	&kp K       	&kp J    	&kp BSLH    	&kp F   	&kp D    	&kp S    	&kp A      	&none      	&none      
                 &kp SLCK	&none         	&none      	&none      	&none      	&kp P       	&kp O       	&kp I       	&kp U    	&none       	&kp R   	&kp E    	&kp W    	&kp Q      	&none      	&none      
                 &kp PSCRN	&kp END       	&kp PG_DN	&kp F12	&kp F11     	&kp N0      	&kp N9      	&kp N8      	&kp N7   	&kp F10     	&kp N4  	&kp N3   	&kp N2   	&kp N1     	&none      	&none      
-                &none       	&kp HOME      	&kp PG_UP       	&kp INS	&kp DEL     	&kp MINUS   	&kp F8      	&kp EQUAL   	&kp N6   	&kp F9      	&kp N5  	&kp F2   	&kp F1   	&kp TILDE  	&none      	&kp LCTRL
-                &none       	&none         	&none      	&none      	&none      	&kp LBKT    	&kp F7      	&kp RBKT    	&kp Y    	&kp BSPC    	&kp T   	&kp F3   	&lt COMBO LWIN	&kp TAB    	&kp LSHFT   	&none      
+                &none       	&kp HOME      	&kp PG_UP       	&kp INS	&kp DEL     	&kp MINUS   	&kp F8      	&kp EQUAL   	&kp N6   	&kp F9      	&kp N5  	&kp F2   	&kp F1   	&kp TILDE  	&none      	&kp RCTRL
+                &none       	&none         	&none      	&none      	&none      	&kp LBKT    	&kp F7      	&kp RBKT    	&kp Y    	&kp BSPC    	&kp T   	&kp F3   	&lt COMMON LWIN	&kp TAB    	&kp LSHFT   	&none      
                 &kp LALT    	&kp UP        	&none      	&none      	&none      	&kp APOS    	&none       	&kp F6      	&kp H    	&kp F5      	&kp G   	&kp F4   	&none    	&kp ESC    	&none      	&none      
-                >;          
-        };
-
-        combo_layer {
-
-            bindings = <
-                &none       	&kp LG(LEFT)	&none       	&kp LG(RIGHT)	&kp LG(DOWN)	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
-                &none       	&bootloader	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
-                &none       	&none         	&none      	&none      	&none      	&none       	&none       	&none       	&none       	&none       	&none       	&kp LG(D)	&none       	&none       	&none       	&none       
-                &bt BT_CLR	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&kp LG(R)	&kp LG(E)	&kp LG(W)	&kp LA(F4)	&none         	&none         
-                &out OUT_TOG     	&none         	&bt BT_PRV	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&kp C_VOL_DN	&kp C_VOL_UP	&none         	&none         
-                &none       	&none         	&bt BT_NXT	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&kp LC(LA(F1)) 	&none         	&none         
-                &none       	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         
-                &kp K_WWW	&kp LG(UP)	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&trans	&none         	&none         
             >;          
         };
+
+        common_layer {
+            bindings = <
+                &kp LC(LA(F5)) 	&kp LG(LEFT)	&none       	&kp LG(RIGHT)	&kp LG(DOWN)	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
+                &none       	&kp LC(LA(F12)) 	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&kp LC(LA(F8)) 	&kp LC(LA(F7)) 
+                &none       	&none         	&none      	&none      	&none      	&none       	&none       	&none       	&none       	&none       	&none       	&kp LG(D)	&none       	&none       	&none       	&none       
+                &kp LC(LA(F11)) 	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&kp LG(R)	&kp LG(E)	&kp LG(W)	&kp LA(F4)	&none         	&none         
+                &out OUT_TOG     	&none         	&bt BT_PRV	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&kp C_VOL_DN	&kp C_VOL_UP	&none         	&none         
+                &none       	&none         	&bt BT_NXT	&bootloader	&bt BT_CLR	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&kp LC(LA(F1)) 	&none         	&kp LC(LA(F4)) 
+                &none       	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         
+                &kpC_AL_WWW	&kp LG(UP)	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&none         	&trans	&none         	&none         
+            >;          
+        };
+
+        others_layer {
+            bindings = <
+                &none       	&kp HOME      	&none       	&kp END       	&kp PG_DN	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
+                &none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
+                &none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
+                &none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
+                &none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
+                &none       	&none       	&none       	&none       	&kp RC(RS(DEL))	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
+                &none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&kp CAPS	&none       	&none       	&none       
+                &none       	&kp PG_UP       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
+            >;          
+        };
+
+
     };
 };
