@@ -44,7 +44,7 @@
                 &none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
                 &none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
                 &none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
-                &none       	&none       	&none       	&none       	&kp RC(RS(DEL))	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
+                &none       	&none       	&none       	&none       	&kp LS(DEL)	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
                 &none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&kp CAPS	&none       	&none       	&none       
                 &none       	&kp PG_UP       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       	&none       
             >;          
