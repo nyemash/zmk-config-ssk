@@ -16,12 +16,13 @@ Pics and list on what I had to fix on my 2nd pcb / and going to 3rd.
 * Reset - reason for the slanted switch; to correct trace
 * Batt connector - used a vertical mount that interfered with backplate; use a horizontal female connector or move it up
 * Mounting hole securing the PCB by the two pegs - a little too high thus cannot flush pcb; had to drill it bigger; need to move it down a bit
-* MCU - interferes with backplate; don't use hotswap socket (had to clip some solder to avoid contact) or move it up
+* MCU - interferes with backplate; don't use hotswap socket but need to raise it a bit to make room for the on/off switch (had to clip some solder to avoid contact) or move it up
 * PCB height - need allowance to let it slot in more easier to the case
 * Batt switch - pegs doesn't fit the PCB hole/connector; to correct the footprint
 
 ![image](https://user-images.githubusercontent.com/83567311/227261189-3442c988-3901-487a-ae98-6c2f759782df.png)
 
+The battery on/off switch is under the n!n.
 ![IMG_6562](https://user-images.githubusercontent.com/83567311/227259389-01cefa91-4113-45e8-a1d3-eea79b02a6fb.JPG)
 
 As for materials (some might not be the best selection, but had to work with what I already have)
@@ -37,8 +38,8 @@ As for materials (some might not be the best selection, but had to work with wha
 ## References & Guide
 Made things easier.
 
-* phosphorglow on DT: https://deskthority.net/viewtopic.php?t=8149
-* iw0rm3r on GitHub:  https://github.com/qmk/qmk_firmware/blob/master/keyboards/converter/modelm101/readme.md
-* Joe Scotto on YT: https://www.youtube.com/watch?v=O_urj-rF3bQ
-* infinityis on GitHub: https://github.com/customMK/zmk/tree/engikeeb/app/boards/shields/engikeeb
+* phosphorglow on DT - for matrix: https://deskthority.net/viewtopic.php?t=8149
+* iw0rm3r on GitHub - for parts:  https://github.com/qmk/qmk_firmware/blob/master/keyboards/converter/modelm101/readme.md
+* Joe Scotto on YT - excellent starter guide for building your own ZMK firmware: https://www.youtube.com/watch?v=O_urj-rF3bQ
+* infinityis on GitHub - example of using 595 with n!n: https://github.com/customMK/zmk/tree/engikeeb/app/boards/shields/engikeeb
 * ZMK Discord
