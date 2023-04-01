@@ -7,23 +7,29 @@ There might be the right way to do this but this works for me. Learned ZMK, GitH
 Bluetooth-ed my SSK by replacing the controller with a n!n v2 (21 pins) and a 595 shift register (8 pins but using 3 of the n!n) running on ZMK. You can do 22 pins for SSK (8R x 16C) but need to merge 2 columns with another 2 or if you want, drop another column then n!n would do fine.
 
 ## Stuff
-Gerber files below for JLCPCB but never had a chance to have this fabricated. Made some adjustments with this one based on the mistakes I learned from the prior version; which what I'm using. Adjustments were basically moving stuff around since parts were hitting the backplate. Might end up getting it done to have a cleaner build but I'm out of parts.
+Gerber files below for my 3rd prototype fabrication.
+~~Gerber files below for JLCPCB but never had a chance to have this fabricated. Made some adjustments with this one based on the mistakes I learned from the prior version; which what I'm using. Adjustments were basically moving stuff around since parts were hitting the backplate. Might end up getting it done to have a cleaner build but I'm out of parts.~~
 
 [SSKoy.zip](https://github.com/nyemash/zmk-config-ssk/files/11057691/SSKoy.zip)
 
 Pics and list on what I had to fix on my 2nd pcb / and going to 3rd.
 
-* Reset - reason for the slanted switch; to correct trace
-* Batt connector - used a vertical mount that interfered with backplate; use a horizontal female connector or move it up
-* Mounting hole securing the PCB by the two pegs - a little too high thus cannot flush pcb; had to drill it bigger; need to move it down a bit
-* MCU - interferes with backplate; don't use hotswap socket but need to raise it a bit to make room for the on/off switch (had to clip some solder to avoid contact) or move it up
-* PCB height - need allowance to let it slot in more easier to the case
-* Batt switch - pegs doesn't fit the PCB hole/connector; to correct the footprint
+
+* ~~Reset - reason for the slanted switch; to correct trace~~
+* ~~Batt connector - used a vertical mount that interfered with backplate; use a horizontal female connector or move it up~~
+* ~~Mounting hole securing the PCB by the two pegs - a little too high thus cannot flush pcb; had to drill it bigger; need to move it down a bit~~
+* ~~MCU - interferes with backplate; don't use hotswap socket but need to raise it a bit to make room for the on/off switch (had to clip some solder to avoid contact) or move it up~~
+* ~~PCB height - need allowance to let it slot in more easier to the case~~
+* ~~Batt switch - pegs doesn't fit the PCB hole/connector; to correct the footprint~~
+
 
 ![image](https://user-images.githubusercontent.com/83567311/227261189-3442c988-3901-487a-ae98-6c2f759782df.png)
 
 The battery on/off switch is under the n!n.
 ![IMG_6562](https://user-images.githubusercontent.com/83567311/227259389-01cefa91-4113-45e8-a1d3-eea79b02a6fb.JPG)
+
+3rd iteration of the PCB. Now I'm done (the same attached gerber).
+![IMG_6598](https://user-images.githubusercontent.com/83567311/229260365-2f326535-2641-4ce6-a471-96afabac1147.jpg)
 
 As for materials (some might not be the best selection, but had to work with what I already have)
 1. nice!nano v2
