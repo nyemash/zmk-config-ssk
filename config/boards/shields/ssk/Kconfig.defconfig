@@ -6,4 +6,10 @@ config ZMK_KEYBOARD_NAME
 config SPI
     default y
     
+# enable pinctrl
+CONFIG_PINCTRL=y
+
+# enable GPIO
+CONFIG_GPIO=y
+    
 endif
