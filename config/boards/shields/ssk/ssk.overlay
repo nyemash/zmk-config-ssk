@@ -40,7 +40,7 @@
 
 / {
     chosen {
-        zmk,kscan = &default_kscan;
+        zmk,kscan = &default_kscan;	
 		zmk,matrix_transform = &default_transform;		
     };
 
@@ -83,17 +83,17 @@ default_kscan: kscan {
 	default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
 		columns = <16>;
-		rows = <84>;
+		rows = <8>;
 	
 		map = <
-			RC(0,0) RC(0,1) RC(0,2) RC(0,3) RC(0,4) RC(0,5) RC(0,6) RC(0,7) RC(0,9) RC(0,A) RC(0,B) RC(0,C) RC(0,D) RC(0,E) RC(0,F) RC(0,G)
-			RC(1,0) RC(1,1) RC(1,2) RC(1,3) RC(1,4) RC(1,5) RC(1,6) RC(1,7) RC(1,9) RC(1,A) RC(1,B) RC(1,C) RC(1,D) RC(1,E) RC(1,F) RC(1,G)
-			RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(2,6) RC(2,7) RC(2,9) RC(2,A) RC(2,B) RC(2,C) RC(2,D) RC(2,E) RC(2,F) RC(2,G)
-			RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(3,6) RC(3,7) RC(3,9) RC(3,A) RC(3,B) RC(3,C) RC(3,D) RC(3,E) RC(3,F) RC(3,G)
-			RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6) RC(4,7) RC(4,9) RC(4,A) RC(4,B) RC(4,C) RC(4,D) RC(4,E) RC(4,F) RC(4,G)
-			RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4) RC(5,5) RC(5,6) RC(5,7) RC(5,9) RC(5,A) RC(5,B) RC(5,C) RC(5,D) RC(5,E) RC(5,F) RC(5,G)
-			RC(6,0) RC(6,1) RC(6,2) RC(6,3) RC(6,4) RC(6,5) RC(6,6) RC(6,7) RC(6,9) RC(6,A) RC(6,B) RC(6,C) RC(6,D) RC(6,E) RC(6,F) RC(6,G)
-			RC(7,0) RC(7,1) RC(7,2) RC(7,3) RC(7,4) RC(7,5) RC(7,6) RC(7,7) RC(7,9) RC(7,A) RC(7,B) RC(7,C) RC(7,D) RC(7,E) RC(7,F) RC(7,G)
+			RC(0,0) RC(0,1) RC(0,2) RC(0,3) RC(0,4) RC(0,5) RC(0,6) RC(0,7) RC(0,9) RC(0,10) RC(0,11) RC(0,12) RC(0,13) RC(0,14) RC(0,15)
+			RC(1,0) RC(1,1) RC(1,2) RC(1,3) RC(1,4) RC(1,5) RC(1,6) RC(1,7) RC(1,9) RC(1,10) RC(1,11) RC(1,12) RC(1,13) RC(1,14) RC(1,15)
+			RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(2,6) RC(2,7) RC(2,9) RC(2,10) RC(2,11) RC(2,12) RC(2,13) RC(2,14) RC(2,15)
+			RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(3,6) RC(3,7) RC(3,9) RC(3,10) RC(3,11) RC(3,12) RC(3,13) RC(3,14) RC(3,15)
+			RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6) RC(4,7) RC(4,9) RC(4,10) RC(4,11) RC(4,12) RC(4,13) RC(4,14) RC(4,15)
+			RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4) RC(5,5) RC(5,6) RC(5,7) RC(5,9) RC(5,10) RC(5,11) RC(5,12) RC(5,13) RC(5,14) RC(5,15)
+			RC(6,0) RC(6,1) RC(6,2) RC(6,3) RC(6,4) RC(6,5) RC(6,6) RC(6,7) RC(6,9) RC(6,10) RC(6,11) RC(6,12) RC(6,13) RC(6,14) RC(6,15)
+			RC(7,0) RC(7,1) RC(7,2) RC(7,3) RC(7,4) RC(7,5) RC(7,6) RC(7,7) RC(7,9) RC(7,10) RC(7,11) RC(7,12) RC(7,13) RC(7,14) RC(7,15)
 		>;
 	};	
  
