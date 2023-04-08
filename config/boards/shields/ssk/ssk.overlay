@@ -17,8 +17,8 @@ default_kscan: kscan {
             ;
 
         row-gpios
-            = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)> 
-            , <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>
+            = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
+            , <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
  
