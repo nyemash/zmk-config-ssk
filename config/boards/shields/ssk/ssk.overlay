@@ -49,11 +49,11 @@ default_kscan: kscan {
         diode-direction = "col2row";
 
         col-gpios
-            = <&pro_micro 8 GPIO_ACTIVE_HIGH>
-            , <&pro_micro 9 GPIO_ACTIVE_HIGH>
-            , <&gpio1 1 GPIO_ACTIVE_HIGH>
-            , <&gpio1 2 GPIO_ACTIVE_HIGH>
-            , <&gpio1 7 GPIO_ACTIVE_HIGH>     
+			= <&pro_micro 8 GPIO_ACTIVE_LOW>
+			, <&pro_micro 9 GPIO_ACTIVE_HIGH>
+			, <&gpio1 1 GPIO_ACTIVE_HIGH>
+			, <&gpio1 2 GPIO_ACTIVE_HIGH>
+			, <&gpio1 7 GPIO_ACTIVE_HIGH>     
 			, <&shifter 1 GPIO_ACTIVE_HIGH>
 			, <&shifter 2 GPIO_ACTIVE_HIGH>
 			, <&shifter 3 GPIO_ACTIVE_HIGH>
@@ -61,10 +61,10 @@ default_kscan: kscan {
 			, <&shifter 5 GPIO_ACTIVE_HIGH>
 			, <&shifter 6 GPIO_ACTIVE_HIGH>
 			, <&shifter 7 GPIO_ACTIVE_HIGH>
-            , <&pro_micro 18 GPIO_ACTIVE_HIGH>
-            , <&pro_micro 19 GPIO_ACTIVE_HIGH>   
-            , <&pro_micro 20 GPIO_ACTIVE_HIGH>
-            , <&pro_micro 21 GPIO_ACTIVE_HIGH> 
+			, <&pro_micro 18 GPIO_ACTIVE_HIGH>
+			, <&pro_micro 19 GPIO_ACTIVE_HIGH>   
+			, <&pro_micro 20 GPIO_ACTIVE_HIGH>
+			, <&pro_micro 21 GPIO_ACTIVE_HIGH> 
             ;
 
         row-gpios
