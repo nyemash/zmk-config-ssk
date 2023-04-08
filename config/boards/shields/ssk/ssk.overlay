@@ -9,13 +9,14 @@ default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "default_kscan";
 
-        row-gpios
-            = <&pro_micro 1 (GPIO_ACTIVE_HIGH)> 
-            , <&pro_micro 0 (GPIO_ACTIVE_HIGH)>
+        col-gpios
+			= <&pro_micro 8 GPIO_ACTIVE_HIGH
             ;
 
-        col-gpios
-			= <&pro_micro 8 GPIO_ACTIVE_HIGH>
+
+        row-gpios
+            = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>)> 
+            , <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>)>
             ;
 
     };
