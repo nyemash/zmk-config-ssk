@@ -13,8 +13,8 @@
 
         default_layer {
             bindings = <
-                &kp RALT	&kp LEFT
-                &none       	&bootloader
+                &kp RALT	
+                &kp LEFT
             >;          
         };
 
