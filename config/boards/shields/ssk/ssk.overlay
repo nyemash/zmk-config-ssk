@@ -10,7 +10,7 @@ default_kscan: kscan {
         label = "default_kscan";
 
         col-gpios
-			= <&pro_micro 8 GPIO_ACTIVE_LOW
+			= <&pro_micro 8 GPIO_ACTIVE_LOW>
             ;
 
 
