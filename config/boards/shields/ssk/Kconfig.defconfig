@@ -1,5 +1,9 @@
+if SHIELD_SSK
+
 config ZMK_KEYBOARD_NAME
     default "SSKoy"
 
 config ZMK_KSCAN_GPIO_POLLING
 	default y
+    
+endif
