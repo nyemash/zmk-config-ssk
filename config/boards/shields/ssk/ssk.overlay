@@ -27,6 +27,6 @@ default_kscan: kscan {
         rows = <1>;
         map = <		
 			RC(0,0) RC(0,1)
-        map = < 
-	};		
+        >;
+    };
 };
