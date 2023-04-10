@@ -3,10 +3,5 @@ if SHIELD_SSK
 config ZMK_KEYBOARD_NAME
     default "SSKoy"
     
-# enable pinctrl
-CONFIG_PINCTRL=y
-
-# enable GPIO
-CONFIG_GPIO=y
 
 endif
