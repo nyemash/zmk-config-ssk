@@ -14,7 +14,9 @@
         default_layer {
             bindings = <
                 &kp PSCRN   &kp SLCK     &kp PAUSE_BREAK
-                &kp HOME    &kp END     &kp UP
+                &kp HOME    
+                &kp END     
+                &kp UP
                 &kp LALT    &kp RALT    &kp LEFT
             >;          
         };
