@@ -4,4 +4,6 @@ config ZMK_KEYBOARD_NAME
     default "SSKoy"
     
 
+CONFIG_ZMK_HID_REPORT_TYPE_NKRO=y
+
 endif
