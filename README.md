@@ -12,8 +12,7 @@ Gerber files below for my 3rd prototype fabrication.
 
 [SSKoy.zip](https://github.com/nyemash/zmk-config-ssk/files/11057691/SSKoy.zip)
 
-Pics and list on what I had to fix on my 2nd pcb / and going to 3rd.
-
+Pics and list on what I had to fix on my 2nd pcb / and going to 3rd. **Need to try build a PCB again and add diodes per column to get some sort of key rollover but then ghosting would most likely occur.**
 
 * ~~Reset - reason for the slanted switch; to correct trace~~
 * ~~Batt connector - used a vertical mount that interfered with backplate; use a horizontal female connector or move it up~~
@@ -21,7 +20,6 @@ Pics and list on what I had to fix on my 2nd pcb / and going to 3rd.
 * ~~MCU - interferes with backplate; don't use hotswap socket but need to raise it a bit to make room for the on/off switch (had to clip some solder to avoid contact) or move it up~~
 * ~~PCB height - need allowance to let it slot in more easier to the case~~
 * ~~Batt switch - pegs doesn't fit the PCB hole/connector; to correct the footprint~~
-
 
 ![image](https://user-images.githubusercontent.com/83567311/227261189-3442c988-3901-487a-ae98-6c2f759782df.png)
 
