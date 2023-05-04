@@ -46,40 +46,39 @@
 default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "default_kscan";
-        diode-direction = "row2col";
+        diode-direction = "col2row";
 
         row-gpios
-            = <&pro_micro 1 GPIO_ACTIVE_HIGH>
-			  , <&pro_micro 0 GPIO_ACTIVE_HIGH>
-			  , <&pro_micro 2 GPIO_ACTIVE_HIGH>
-			  , <&pro_micro 3 GPIO_ACTIVE_HIGH>
-			  , <&pro_micro 4 GPIO_ACTIVE_HIGH>
-			  , <&pro_micro 5 GPIO_ACTIVE_HIGH>
-			  , <&pro_micro 6 GPIO_ACTIVE_HIGH>
-			  , <&pro_micro 7 GPIO_ACTIVE_HIGH>
+            = <&pro_micro 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+			  , <&pro_micro 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+			  , <&pro_micro 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+			  , <&pro_micro 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+			  , <&pro_micro 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+			  , <&pro_micro 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+			  , <&pro_micro 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+			  , <&pro_micro 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
 
         col-gpios
-			= <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>                               
-			, <&gpio1 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&gpio1 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&gpio1 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>                 
+			= <&pro_micro 8 GPIO_ACTIVE_LOW>
+			, <&pro_micro 9 GPIO_ACTIVE_LOW>                               
+			, <&gpio1 1 GPIO_ACTIVE_LOW>
+			, <&gpio1 2 GPIO_ACTIVE_LOW>
+			, <&gpio1 7 GPIO_ACTIVE_LOW>     
+			, <&shifter 1 GPIO_ACTIVE_LOW>
+			, <&shifter 2 GPIO_ACTIVE_LOW>
+			, <&shifter 3 GPIO_ACTIVE_LOW>
+			, <&shifter 4 GPIO_ACTIVE_LOW>
+			, <&shifter 5 GPIO_ACTIVE_LOW>
+			, <&shifter 6 GPIO_ACTIVE_LOW>
+			, <&shifter 7 GPIO_ACTIVE_LOW>
+			, <&pro_micro 18 GPIO_ACTIVE_LOW>
+			, <&pro_micro 19 GPIO_ACTIVE_LOW>   
+			, <&pro_micro 20 GPIO_ACTIVE_LOW>
+			, <&pro_micro 21 GPIO_ACTIVE_LOW>                
             ;
     };
 
-    default_transform: keymap_transform_0 {
-        compatible = "zmk,matrix-transform";
-        columns = <2>;
-        rows = <8>;
-        map = <
-			RC(7,13)	RC(5,12) RC(5,11) RC(5,12) RC(5,12)		RC(5,12) RC(5,12) RC(5,12) RC(5,12)		RC(5,12) RC(5,12) RC(5,12) RC(5,12)
-            RC(4,0) RC(3,0) RC(1,1)            
-            RC(5,1)
-            RC(4,1)
-            RC(7,1)
-            RC(7,0) RC(0,0) RC(0,1)
-        >;
-    };	
+
 };
 
