@@ -13,19 +13,36 @@
 
         default_layer {
             bindings = <
-&kp RALT	&kp LEFT      	&none      	&kp RIGHT	&kp DOWN    
-&none       	&kp PAUSE_BREAK	&none      	&none      	&none      
-&none       	&none         	&none      	&none      	&none      
-&kp SLCK    	&none         	&none      	&none      	&none      
-&bootloader	&kp END       	&kp PG_DN	&kp F12	&kp F11     
-&none       	&kp HOME      	&kp PG_UP       	&kp INS	&kp DEL     
-&none       	&none         	&none      	&none      	&none      
-&kp LALT    	&kp UP        	&none      	&none      	&none      
-
+                &kp ESC		&kp F1 &kp F2 &kp F3 &kp F4 	&kp F5 &kp F6 &kp F7 &kp F8 	&kp F9 &kp F10 &kp F11 &kp F12	 	&kp PSCRN &kp SLCK &bootloader
+				&kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL &kp BSPC	&kp INS &kp HOME &kp PG_UP
+				&kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT 			&kp BSLH		&kp DEL &kp END &kp PG_DN
+				&kp &lt COMMON WIN &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI &kp APOS &kp ENTER
+				&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RSHFT		 &kp UP
+				&kp LCTRL &kp LALT &kp SPACE &kp RALT &lt OTHERS K_APP		 &kp LEFT &kp DOWN &kp RIGHT
             >;          
         };
 
+        common_layer {
+            bindings = <
+                &kp ESC		&kp F1 &kp F2 &kp F3 &kp F4 	&kp F5 &kp F6 &kp F7 &kp F8 	&kp F9 &kp F10 &kp F11 &kp F12	 	&kp PSCRN &kp SLCK &bootloader
+				&kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL &kp BSPC	&kp INS &kp HOME &kp PG_UP
+				&kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT 			&kp BSLH		&kp DEL &kp END &kp PG_DN
+				&kp CAPS &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI &kp APOS &kp ENTER
+				&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RSHFT		 &kp UP
+				&kp LCTRL &kp LALT &kp SPACE &kp RALT &kp RCTRL		 &kp LEFT &kp DOWN &kp RIGHT
+            >;          
+        };
 
+        others_layer {
+            bindings = <
+                &kp ESC		&kp F1 &kp F2 &kp F3 &kp F4 	&kp F5 &kp F6 &kp F7 &kp F8 	&kp F9 &kp F10 &kp F11 &kp F12	 	&kp PSCRN &kp SLCK &bootloader
+				&kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL &kp BSPC	&kp INS &kp HOME &kp PG_UP
+				&kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT 			&kp BSLH		&kp DEL &kp END &kp PG_DN
+				&kp CAPS &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI &kp APOS &kp ENTER
+				&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RSHFT		 &kp UP
+				&kp LCTRL &kp LALT &kp SPACE &kp RALT &kp RCTRL		 &kp LEFT &kp DOWN &kp RIGHT
+            >;          
+        };
 
 
     };
