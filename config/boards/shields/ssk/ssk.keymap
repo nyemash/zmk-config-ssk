@@ -38,8 +38,8 @@
                 &none            	    &none &none &none &none        	        &none &none &none &none                 &none   &none  &none   &none                &none           &none              &none
                 &none               &none &none &none &none &none &none &none &none &none &none &none &none                                    &none	            &none           &none              &none
 				&none                   &none &none &none &none &none &none &none &none &none &none &none &none                                &none		        &kp LS(DEL)     &none              &none
-				&kp CAPS                    &none &none &none &none &none &none &none &none &none &none &none &none 
-				&none                           &none &none &none &none &none &none &none &none &none &none &none                              &none		                        &kp PG_UP
+				&kp CAPS                    &none &none &none &none &none &none &none &none &none &none &none                                  &none 
+				&none                           &none &none &none &none &none &none &none &none &none &none                                    &none		                        &kp PG_UP
 				&none            &none                                      &none                                            &none             &none                &kp HOME        &kp PG_DN          &kp END
             >;          
         };
