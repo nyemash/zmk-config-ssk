@@ -24,6 +24,9 @@ Gerber files below for my 4th prototype - I'm completely done and might have bee
 4th and final PCB
 ![IMG_6868](https://github.com/nyemash/zmk-config-ssk/assets/83567311/1a8457f1-0c78-45b1-ae8f-6649d1eec036)
 
+As for the hotswap sockets, to clear the backplate of SSK go with the red one. I had to clip some of the bottom solder & pins on the n!n as well to make sure the pins doesn't touch. 
+![IMG_6870](https://github.com/nyemash/zmk-config-ssk/assets/83567311/9c558f41-c355-4461-bb5c-57f3539b3115)
+
 As for materials (some might not be the best selection, but had to work with what I already have)
 1. nice!nano v2
 2. 74HC595
