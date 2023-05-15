@@ -6,7 +6,6 @@
 #define DEFAULT 0
 #define COMMON 1
 #define OTHERS 2
-#define FIXALT 3
 
 / {
     keymap {
@@ -19,7 +18,7 @@
 				&kp TAB                 &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT 	                       &kp BSLH		        &kp DEL         &kp END            &kp PG_DN
 				&lt COMMON LWIN             &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI &kp APOS                            &kp ENTER
 				&kp LSHFT                       &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH                           &kp RSHFT		                    &kp UP
-				&kp LCTRL       &kp LALT                                    &kp SPACE                                         &mo FIXALT       &lt OTHERS K_APP     &kp LEFT        &kp DOWN           &kp RIGHT
+				&kp LCTRL       &kp LALT                                    &kp SPACE                                         &mo OTHERS         &lt OTHERS K_APP     &kp LEFT        &kp DOWN           &kp RIGHT
             >;          
         };
 
@@ -45,15 +44,7 @@
             >;          
         };
 
-        fixalt_layer {
-            bindings = <
-                &kp ESC     	        &kp F1 &kp F2 &kp F3 &kp F4    	        &kp F5 &kp F6 &kp F7 &kp F8             &kp F9 &kp F10 &kp F11 &kp F12              &kp PSCRN       &kp SLCK           &kp PAUSE_BREAK
-                &kp GRAVE           &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL                  &kp BSPC             &kp INS         &kp HOME           &kp PG_UP
-				&kp TAB                 &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp LBKT &kp RBKT 	                       &kp BSLH		        &kp DEL         &kp END            &kp PG_DN
-				&kp CAPS                     &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI &kp APOS                           &kp ENTER
-				&kp LSHFT                       &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH                           &kp RSHFT		                    &kp UP
-				&kp LCTRL       &kp LALT                                    &kp SPACE                                         &none            &kp RCTRL            &kp LEFT        &kp DOWN           &kp RIGHT
-            >;          
-        };
+
+
     };
 };
