@@ -7,7 +7,7 @@ There might be the right way to do this but this works for me. Learned ZMK, GitH
 Bluetooth-ed my SSK by replacing the controller with a n!n v2 (21 pins) and a 595 shift register (8 pins but using 3 of the n!n) running on ZMK. You can do 22 pins for SSK (8R x 16C) but need to merge 2 columns with another 2 or if you want, drop another column then n!n would do fine.
 
 ## Stuff
-Gerber files below for my 4th prototype - I'm completely done and might have been cheaper to go with an FSSK then n!n. For this round, added diodes for the columns to have some sort of NKRO and prevent blocking; keys on the same row are blocking each other while pressed without the diodes. Now the only issue is that the "Right Alt" is triggering "Left" arrow when pressed. Luckily I don't use that Alt so I'll leave it as is.
+Gerber files below for my 4th prototype - I'm completely done and might have been cheaper to go with an FSSK then n!n. For this round, added diodes for the columns to have some sort of NKRO and prevent blocking; keys on the same row are blocking each other while pressed without the diodes. Now the only issue is that the "Right Alt" is triggering "Left" arrow when pressed. Luckily I don't use that Alt but as a workaround made a separate layer for it with LEFT assigned as RALT.
 
 [SSKoy.zip](https://github.com/nyemash/zmk-config-ssk/files/11471226/SSKoy.zip)
 
