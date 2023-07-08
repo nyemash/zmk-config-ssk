@@ -26,11 +26,11 @@
         common_layer {
             bindings = <
                 &kp ESC         	    &kp F1 &kp F2 &kp F3 &kp F4         	    &kp F5 &kp F6 &kp F7 &kp F8             	 &kp F9 &kp F10 &kp F11 &kp F12    	        &out OUT_TOG     &kp LC(LA(F11))    &kp LC(LA(F12))
-                &kp LC(LA(F1))      &kp C_VOL_DN &kp C_VOL_UP &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL               &kp BSPC	        &bootloader      &kp HOME           &bt BT_NXT
-				&kp LC(LA(F2))          &kp LA(F4) &kp LG(W) &kp LG(E) &kp LG(R) &kp T &kp HOME &kp PG_DN &kp UP &kp PG_UP &kp END &kp LBKT &kp RBKT 	&kp BSLH		    &bt BT_CLR       &kp END            &bt BT_PRV
-				&none                       &kp A &kp S &kp LG(D) &kp F &kp G &kp H &kp LEFT &kp DOWN &kp RIGHT &kp SEMI &kp APOS                       &kp ENTER
-				&kp LC(LA(F3))                  &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH                                    &kp LC(LA(F8))		                 &kp LG(UP)
-				&kp LC(LA(F4))   &kp LC(LA(BSPC))                           &kp SPACE                                               &kp LC(LA(F5))      &kp LC(LA(F7))      &kp LG(LEFT)     &kp LG(DOWN)       &kp LG(RIGHT)
+                &kp LC(LA(F1))      &kp C_VOL_DN &kp C_VOL_UP &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL               &kp LC(LA(BSPC))	&bootloader      &kp HOME           &bt BT_NXT
+				&kp LC(LA(F2))          &kp LA(F4) &kp LG(W) &kp LG(E) &kp LG(R) &kp T &kp HOME &kp PG_DN &kp UP &kp PG_UP &kp END &kp LBKT &kp RBKT 	&kp LC(LA(F10))		&bt BT_CLR       &kp END            &bt BT_PRV
+				&none                       &kp A &kp S &kp LG(D) &kp F &kp G &kp H &kp LEFT &kp DOWN &kp RIGHT &kp SEMI &kp APOS                       &kp LC(LA(F9))
+				&kp LC(LA(F3))                  &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH                                    &kp CAPS		                     &kp LG(UP)
+				&kp LC(LA(F4))   &kp LC(LA(F5))                           &kp LC(LA(F6))                                            &kp LC(LA(F7))      &kp LC(LA(F8))      &kp LG(LEFT)     &kp LG(DOWN)       &kp LG(RIGHT)
             >;          
         };
 
