@@ -40,8 +40,7 @@
 
 / {
     chosen {
-        zmk,kscan = &default_kscan;	
-        zmk,matrix_transform = &default_transform;			
+        zmk,kscan = &default_kscan;				
     };
 
 default_kscan: kscan {
@@ -79,6 +78,4 @@ default_kscan: kscan {
 			, <&pro_micro 21 GPIO_ACTIVE_HIGH>                
             ;
     };
-
-
 };
