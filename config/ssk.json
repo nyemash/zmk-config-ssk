@@ -6,7 +6,10 @@
                 { "label":      "F1", "row": 5, "col":  12, "x":     2, "y":  0 },
                 { "label":      "F3", "row": 6, "col":  11, "x":     4, "y":  0 },
                 { "label":      "F4", "row": 7, "col":  11, "x":     5, "y":  0 },
-                { "label":    "ESC", "row": 7, "col":  13, "x":     0, "y":  0 }               
+                { "label":    "ESC", "row": 7, "col":  13, "x":     0, "y":  0 },         
+                { "label":    "~", "row": 5, "col":  13, "x":     0, "y":  1 },
+                { "label":    "TAB", "row": 6, "col":  13, "x":     0, "y":  2 },
+                { "label":    "FN", "row": 6, "col":  12, "x":     0, "y":  3 }                
             ]
         }
     }
