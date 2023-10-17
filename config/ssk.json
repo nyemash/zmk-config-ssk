@@ -2,9 +2,15 @@
     "layouts": {
       "LAYOUT": {
         "layout": [
-          { "label":    "ESC", "row": 0, "col":  0, "x":     0, "y":  0.360 },
-          { "label":      "F1", "row": 0, "col":  1, "x":     1, "y":  0.360 }
-      ]
-      }
+                { "label":    "ESC", "row": 7, "col":  13, "x":     0, "y":  0 },
+                { "label":      "F1", "row": 5, "col":  12, "x":     2, "y":  0 },
+                { "label":      "F2", "row": 5, "col":  11, "x":     3, "y":  0 },
+                { "label":      "F3", "row": 6, "col":  11, "x":     4, "y":  0 },
+                { "label":      "F4", "row": 7, "col":  11, "x":     5, "y":  0 }
+            ]
+        }
     }
-  }
+}
+
+
+
