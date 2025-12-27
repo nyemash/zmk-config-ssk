@@ -26,7 +26,7 @@
             bindings = <
 &none           &none           &none           &none           &none           &none         &none         &none          &none       &none       &none       &none     &none           &out OUT_TOG      &kp LC(LA(F11))  &kp LC(LA(F12))
 &kp LC(LA(F1))  &kp C_VOL_DN    &kp C_VOL_UP    &kp C_MUTE      &none           &none         &none         &none          &none       &none       &none       &none     &none           &kp LC(LA(BSPC))  &bootloader      &kp HOME         &bt BT_NXT
-&kp LC(LA(F2))  &kp LA(F4)      &kp LG(W)       &kp LG(E)       &kp LG(R)       &none         &none         &kp LG(U)      &kp LG(I)   &none       &kp LG(P)   &none     &none           &kp LC(LA(F10))   &bt BT_CLR       &kp END          &bt BT_PRV
+&none           &kp LA(F4)      &kp LG(W)       &kp LG(E)       &kp LG(R)       &none         &none         &kp LG(U)      &kp LG(I)   &none       &kp LG(P)   &none     &none           &kp LC(LA(F10))   &bt BT_CLR       &kp END          &bt BT_PRV
 &none           &kp LG(A)       &kp LG(S)       &kp LG(D)       &kp LC(LA(F))   &none         &none         &none          &none       &kp LG(L)   &none       &none     &kp LC(LA(F9))
 &kp LC(LA(F3))  &kp LS(LG(S))   &kp LG(X)       &kp LG(C)       &kp LG(V)       &none         &none         &none          &kp C_PREV  &kp C_NEXT  &kp C_PLAY  &kp CAPS  &kp LG(UP)
 &kp LC(LA(F4))  &kp LC(LA(F5))  &kp LC(LA(F6))  &kp LC(LA(F7))  &kp LC(LA(F8))  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)
